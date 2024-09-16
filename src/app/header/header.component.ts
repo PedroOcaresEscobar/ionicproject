@@ -1,18 +1,22 @@
 import { Component, OnInit } from '@angular/core';
-import {IonicModule} from '@ionic/angular'
+import { IonicModule } from '@ionic/angular';
+import { Router, RouterLink } from '@angular/router';
+import { ButtonModule } from 'primeng/button';
 
-import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
   standalone: true,
-  imports:[IonicModule, RouterLink]
+  imports: [IonicModule, RouterLink, ButtonModule]
 })
-export class HeaderComponent  implements OnInit {
+export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {}
 
+  navigateToLogin() {
+    this.router.navigate(['/login']);
+  }
 }

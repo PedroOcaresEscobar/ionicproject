@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { RecetasComponent } from './recetas.component';
+import { UsernameInputComponent } from './username-input.component';
 
-describe('RecetasComponent', () => {
-  let component: RecetasComponent;
-  let fixture: ComponentFixture<RecetasComponent>;
+describe('UsernameInputComponent', () => {
+  let component: UsernameInputComponent;
+  let fixture: ComponentFixture<UsernameInputComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ RecetasComponent ],
+      declarations: [ UsernameInputComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(RecetasComponent);
+    fixture = TestBed.createComponent(UsernameInputComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

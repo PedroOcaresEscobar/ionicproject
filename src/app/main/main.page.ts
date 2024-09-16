@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
-import { HeaderComponent } from '../header/header.component';
+
 
 
 @Component({
@@ -11,7 +11,7 @@ import { HeaderComponent } from '../header/header.component';
   templateUrl: './main.page.html',
   styleUrls: ['./main.page.scss'],
   standalone: true,
-  imports: [    CommonModule, FormsModule, RouterLink, IonicModule, HeaderComponent]
+  imports: [    CommonModule, FormsModule, RouterLink, IonicModule]
 })
 export class MainPage implements OnInit {
 
