@@ -1,0 +1,7 @@
+{
+  "name": "PruebasUnitarias",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
