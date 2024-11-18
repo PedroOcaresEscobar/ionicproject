@@ -76,4 +76,4 @@ para que esto funcione debes estar en la rama de destino
 En caso de tener problemas seleccionar directorio base y ejecutar este comando removera el archivo index.lock que bloquea git mientra esta ejecutrando otro proceso
 o quedo "pegado" por algun error por ejemplo cerrar el terminal mientras se ejecuta algun comando.
 
-    
+    nuevo cambio
